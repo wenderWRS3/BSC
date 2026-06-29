@@ -1,0 +1,58 @@
+<svg width="420" height="560" viewBox="0 0 210 280" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>BSC — Higanbana com Abelha</title>
+
+  <!-- fundo transparente -->
+
+  <!-- caule curto -->
+  <path d="M105 248 Q104 228 105 210 Q106 198 105 188" stroke="#1a1814" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+
+  <!-- pétalas enroladas -->
+  <path d="M105 178 C98 172 88 163 84 152 C86 156 90 163 94 168 C90 162 88 154 90 146 C94 153 96 164 100 172 C102 165 100 155 104 148 C106 157 106 168 105 178Z"
+    stroke="#1a1814" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M105 178 C112 172 122 163 126 152 C124 156 120 163 116 168 C120 162 122 154 120 146 C116 153 114 164 110 172 C108 165 110 155 106 148 C104 157 104 168 105 178Z"
+    stroke="#1a1814" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M103 180 C96 178 84 178 76 174 C80 176 88 177 94 178 C88 176 82 170 80 163 C86 168 96 175 103 180Z"
+    stroke="#1a1814" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M107 180 C114 178 126 178 134 174 C130 176 122 177 116 178 C122 176 128 170 130 163 C124 168 114 175 107 180Z"
+    stroke="#1a1814" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M102 176 C96 168 90 156 92 144 C94 150 96 160 100 168 C98 160 98 150 102 143 C104 152 104 164 103 176Z"
+    stroke="#1a1814" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M108 176 C114 168 120 156 118 144 C116 150 114 160 110 168 C112 160 112 150 108 143 C106 152 106 164 107 176Z"
+    stroke="#1a1814" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M100 174 C102 166 104 158 105 150 C106 158 108 166 110 174"
+    stroke="#1a1814" stroke-width="1.1" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M96 176 C98 170 102 162 105 156 C108 162 112 170 114 176"
+    stroke="#1a1814" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- 4 estames com pontinho -->
+  <path d="M103 174 C100 162 94 148 86 132" stroke="#1a1814" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+  <circle cx="85" cy="130" r="2.2" fill="#1a1814"/>
+  <path d="M107 174 C110 162 116 148 124 132" stroke="#1a1814" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+  <circle cx="125" cy="130" r="2.2" fill="#1a1814"/>
+  <path d="M101 178 C92 170 78 162 64 154" stroke="#1a1814" stroke-width="1" fill="none" stroke-linecap="round"/>
+  <circle cx="62" cy="153" r="2" fill="#1a1814"/>
+  <path d="M109 178 C118 170 132 162 146 154" stroke="#1a1814" stroke-width="1" fill="none" stroke-linecap="round"/>
+  <circle cx="148" cy="153" r="2" fill="#1a1814"/>
+
+  <!-- abelha -->
+  <g transform="translate(152,90) rotate(-20)">
+    <path d="M0 0 C-7 -9 -16 -7 -12 1Z" stroke="#1a1814" stroke-width=".9" fill="none" stroke-linecap="round"/>
+    <path d="M0 0 C7 -9 16 -7 12 1Z" stroke="#1a1814" stroke-width=".9" fill="none" stroke-linecap="round"/>
+    <path d="M-1 2 C-8 -3 -13 1 -8 5Z" stroke="#1a1814" stroke-width=".7" fill="none" stroke-linecap="round"/>
+    <path d="M1 2 C8 -3 13 1 8 5Z" stroke="#1a1814" stroke-width=".7" fill="none" stroke-linecap="round"/>
+    <ellipse cx="0" cy="5" rx="4.5" ry="7" stroke="#1a1814" stroke-width="1.1" fill="none"/>
+    <path d="M-4 3 Q0 2 4 3" stroke="#1a1814" stroke-width=".9" fill="none" stroke-linecap="round"/>
+    <path d="M-4.2 6 Q0 5 4.2 6" stroke="#1a1814" stroke-width=".9" fill="none" stroke-linecap="round"/>
+    <path d="M-4 9 Q0 8 4 9" stroke="#1a1814" stroke-width=".9" fill="none" stroke-linecap="round"/>
+    <circle cx="0" cy="-3" r="3" stroke="#1a1814" stroke-width=".9" fill="none"/>
+    <path d="M-1.2 -6 C-3 -10 -5 -12 -4.5 -14" stroke="#1a1814" stroke-width=".7" fill="none" stroke-linecap="round"/>
+    <path d="M1.2 -6 C3 -10 5 -12 4.5 -14" stroke="#1a1814" stroke-width=".7" fill="none" stroke-linecap="round"/>
+    <circle cx="-4.5" cy="-14" r="1" fill="#1a1814"/>
+    <circle cx="4.5" cy="-14" r="1" fill="#1a1814"/>
+  </g>
+
+  <!-- nome BSC -->
+  <text x="105" y="268" text-anchor="middle"
+    font-family="Georgia, serif" font-size="11"
+    letter-spacing="7" fill="#1a1814" opacity=".7">BSC</text>
+</svg>

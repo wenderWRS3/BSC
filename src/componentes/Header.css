@@ -1,9 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 10px;
     background-color:#1A1A1A;
+    width: 100%;
+    position: fixed;
+    top: 0;        
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+#logoo{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+#logo{
+    color: #D4A853;
+    width: 100px;
+    align-items: center;
+    height: auto;
+    margin-right: 1px;
+}
+h1{
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+p{
+    color: white;
+    font-size: 15px;
+}
+strong{
+    color: #D4A853;
+    text-decoration: underline;
+    font-size: 25px;
 }
 ul{
     display: flex;
@@ -11,8 +47,13 @@ ul{
    
 }
 #menu{
-    margin: 10px 10px;
+    margin: 20px 20px;
 }
 li{
-    margin: 10px 10px;
+    margin: 20px 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
