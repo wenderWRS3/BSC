@@ -1,11 +1,12 @@
-#log{
+#log {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#111111;
-    height: 100vh;
+    background-color: #111111;
+    height: 120vh;
 }
-#cinquenta{
+
+#cinquenta {
     flex: 1;
     background: #111;
     display: flex;
@@ -13,15 +14,184 @@
     justify-content: center;
     padding: 48px;
 }
-#textoLog{
-    color:  #D4A853;
+
+
+/*stylo e marca*/
+#log_subtitulo {
+   display: black;
+}
+.text_log {
+    color: #D4A853;
+    background-color: #111111;
+    font-size: 30px;
+    margin: 50px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#texto_Log {
+    color: white;
+    background-color: #111111;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#MARCA {
+    color: white;
+    background-color: #111111;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#BSC {
+    color: #D4A853;
+    background-color: #111111;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+#Plog_sty {
+    color: #686868;
+    background-color: #111111;
+    font-size: 20px;
+    margin: 50px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+/*metade 2 da tela (formulario)*/
+#textoLog {
+    color: #D4A853;
     background-color: #1A1A1A;
 }
-#circuloLogDois{
+
+#circuloLogDois {
     flex: 1;
     background: #1a1a1a;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 120vh;
     padding: 48px;
+}
+
+/*formulario*/
+/*nome*/
+#Ckblog {
+    display: block;
+    border: 1px solid #D4A853;
+    margin: 10px 10px;
+    padding: 30px 30px;
+    background-color: #323232;
+    border-radius: 10px;
+}
+#cLog {
+    color: #D4A853;
+    text-decoration: underline;
+    font-size: 35px;
+}
+#formlog {
+    display: flex;
+    background-color: #323232;
+    padding: 20px;
+
+}
+
+#texlog {
+    color: white;
+    font-size: 30px;
+    margin: 10px 10px;
+}
+
+#Plog {
+    color: #686868;
+    font-size: 25px;
+    margin: 10px 10px;
+}
+
+#fiedsetlog {
+    color: white;
+
+    padding: 20px;
+}
+
+.boxStyle {
+    display: black;
+    color: #686868;
+}
+
+.nomeSobrenome {
+    display: flex;
+    
+}
+
+#form-nome {
+    background-color: #1A1A1A;
+}
+#form-sobrenome {
+    background-color: #1A1A1A;
+}
+.form-nome {
+    display: block;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    color: #AAAAAA;
+}
+/*linha*/
+#linhalog {
+    border: 1px solid #D4A853;
+    margin: 20px 20px;
+}
+
+/*email + senha*/
+.form-elem_cheiro {
+    background-color: #1A1A1A;
+    width: 191%;
+        display: block;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    color: #AAAAAA;
+
+}
+/*telefone*/
+#form-data{
+    background-color: #1A1A1A;
+    color:white;
+    margin-right: 60px;
+}
+#form-tel{
+    background-color: #1A1A1A;
+    
+}
+/*butao*/
+#bLog {
+    background-color: #D4A853;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 25px 100%;
+    
+}
+/*telha de logar*/
+#TelLog {
+
+    color: #686868;
+    font-size: 16px;
+}
+#TelLog a {
+    color: #D4A853;
+    text-decoration: underline;
+}
+#divLog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.ter_uso {
+    color: #D4A853;
+    text-decoration: underline;
+    font-size: 16px;
+}
+#Plog_ter_uso {
+    color: #686868;
+    margin: 10px 10px;
 }
