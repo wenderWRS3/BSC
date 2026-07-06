@@ -62,3 +62,8 @@ a{
     font-size: 20px;
     align-items: center;
 }
+#menu-but{
+    background-color: #1A1A1A; 
+    border: none;
+    cursor: pointer;
+}

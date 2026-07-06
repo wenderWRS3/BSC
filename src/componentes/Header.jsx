@@ -1,9 +1,11 @@
 import './Header.css'
+import { ale } from './Header.js';
 import { FiSearch } from "react-icons/fi";
 import { FiShoppingCart } from "react-icons/fi";
 import { FiUser } from "react-icons/fi";
 import { MdOutlineAttachMoney } from "react-icons/md";
 import { AiFillAppstore } from "react-icons/ai";
+import { IoPersonSharp } from "react-icons/io5";
 export default function Header() {
   return (
     <header id="header">
@@ -20,9 +22,11 @@ export default function Header() {
         <li><a href="#"><FiSearch /></a></li>
         <li><a href="#"><FiShoppingCart /></a></li>
 
-
+        
         <li>
-           <a href="#"><FiUser /></a>
+          <button id="menu-but" onClick={ale}>
+           <IoPersonSharp size={24} color="white" />
+          </button>
         </li>
       </ul>
 
