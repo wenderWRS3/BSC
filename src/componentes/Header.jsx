@@ -9,7 +9,7 @@ import { AiFillAppstore } from "react-icons/ai";
 import { IoPersonSharp } from "react-icons/io5";
 import Log from '../paginalog/Log';
 
-export default function Header() {
+export default function Header({setButton}) {
 
   return (
      
@@ -30,7 +30,7 @@ export default function Header() {
 
         
         <li>
-          <button id="menu-but" onClick={() => setButton(!Button)}>
+          <button id="menu-but" onClick={() => setButton(prev => !prev)}>
            <IoPersonSharp size={24} color="white" />
           </button>
         </li>
