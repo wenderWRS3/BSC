@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.on{
+    display: flex;
+}
+.off{
+    display: none;
+}
 #header{
     display: flex;
     justify-content: space-between;
@@ -66,4 +72,7 @@ a{
     background-color: #1A1A1A; 
     border: none;
     cursor: pointer;
+}
+.class{
+    display: none;
 }

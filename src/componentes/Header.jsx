@@ -1,13 +1,19 @@
 import './Header.css'
-import { ale } from './Header.js';
+import { useState } from 'react'
+import paginalog from '../paginalog/log.jsx'
 import { FiSearch } from "react-icons/fi";
 import { FiShoppingCart } from "react-icons/fi";
 import { FiUser } from "react-icons/fi";
 import { MdOutlineAttachMoney } from "react-icons/md";
 import { AiFillAppstore } from "react-icons/ai";
 import { IoPersonSharp } from "react-icons/io5";
+import Log from '../paginalog/Log';
+
 export default function Header() {
+
   return (
+     
+
     <header id="header">
       <div id="logoo">
         <h1 id="logo">BSC</h1>
@@ -24,7 +30,7 @@ export default function Header() {
 
         
         <li>
-          <button id="menu-but" onClick={ale}>
+          <button id="menu-but" onClick={() => setButton(!Button)}>
            <IoPersonSharp size={24} color="white" />
           </button>
         </li>
