@@ -7,7 +7,7 @@ export default function App() {
   return (
       <div>
       <Header setButton={setButton} />
-      {button ? <Main /> : <Log />}
+      {button ? <Log /> :<Main />}
     </div>
   )
 }
