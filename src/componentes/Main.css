@@ -1,4 +1,48 @@
+/*pai*/
 #main{
     background-color: #1A1A1A;
     margin-top: 100px;
+    display: flex;
+    height: 90vh;
+}
+
+
+/*lado esquerdo */
+#apresentaçao{
+    background-color: #1A1A1A;
+    align-items: center;
+    padding: 50px;
+    align-items: center;
+}
+#bankai{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex: 1;
+    margin-right: 100px;
+}
+#rra{
+    color: aliceblue;
+}
+#aja{
+    font-size: 80px;
+     margin:50px 0;
+}
+#aan{
+    font-size: 30px ;
+    margin:50px 0;
+}
+.qqq{
+    font-size: 80px;
+    
+}
+#ooo{
+    text-align: left;
+    font-size: 30px;
+     margin:50px 0;
+}
+/*lado direito*/
+#proMasCom{
+    background-color: blue;
+    flex: 2 ;
 }
