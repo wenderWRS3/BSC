@@ -1,5 +1,8 @@
 import './Main.css'
+import img from "../img/sem-imagem.png"
+import Card from "../prosp/card"
 export default function Main() {
+  const numero = 100;
   return (
     <div id="main">
       <div id='bankai'>
@@ -9,12 +12,16 @@ export default function Main() {
           <p id='ooo'>Peças sem exagero, feitas para quem vive a vida real.
             <br />
             Do mercado ao almoço em família, da rua ao sofá
-           </p>
+          </p>
         </div>
       </div>
 
       <div id='proMasCom'>
-        <h3>aaaaa</h3>
+        <div id='aaall'>
+          <Card img={img} className="center"/>
+          <Card img={img} className="center"/>
+          <Card img={img} className="center"/>
+        </div>
       </div>
     </div>
 

@@ -1,48 +1,120 @@
 /*pai*/
-#main{
+#main {
     background-color: #1A1A1A;
     margin-top: 100px;
     display: flex;
-    height: 90vh;
+    height: 70vh;
 }
 
 
 /*lado esquerdo */
-#apresentaçao{
+#apresentaçao {
     background-color: #1A1A1A;
     align-items: center;
     padding: 50px;
     align-items: center;
 }
-#bankai{
+
+#bankai {
     display: flex;
     justify-content: left;
     align-items: center;
     flex: 1;
     margin-right: 100px;
 }
-#rra{
+
+#rra {
     color: aliceblue;
 }
-#aja{
-    font-size: 80px;
-     margin:50px 0;
+
+#aja {
+    font-size: 60px;
+    margin: 50px 0;
 }
-#aan{
-    font-size: 30px ;
-    margin:50px 0;
+
+#aan {
+    font-size: 10px;
+    margin: 50px 0;
 }
-.qqq{
-    font-size: 80px;
-    
+
+.qqq {
+    font-size: 60px;
+
 }
-#ooo{
+
+#ooo {
     text-align: left;
-    font-size: 30px;
-     margin:50px 0;
+    font-size: 20px;
+    margin: 50px 0;
 }
+
 /*lado direito*/
-#proMasCom{
-    background-color: blue;
-    flex: 2 ;
+#proMasCom {
+    background-color: #1A1A1A;
+    flex: 2;
+
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+
+}
+
+#card :hover {
+    display: flex;
+    flex-wrap: 2 ;
+    height: 432px;
+    width: 260px;
+    margin: 90px;
+
+    #valor {
+        display: none;
+    }
+
+    #descriçao {
+        display: none;
+    }
+   .center{
+    display: none;
+   }
+}
+
+#imag {
+    height: 332px;
+    width: 260px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#descriçao {
+    font-size: 30px;
+    text-align: left;
+    padding: 10px;
+}
+
+#valor {
+    font-size: 30px;
+    text-align: left;
+    padding: 10px;
+}
+
+#produto {
+    height: auto;
+    width: 261px;
+    background-color: #323232;
+    border: 1px solid #D4A853;
+    border-radius: 10px;
+    margin: 19px;
+    align-items: end;
+}
+
+#aaall {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 148px;
+}
+
+.center {
+    align-items: center;
 }
