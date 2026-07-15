@@ -1,0 +1,29 @@
+#tfd{
+    color: #D4A853;
+    background-color: #D4A853;
+}
+#lça{
+    background-color: #1A1A1A;
+
+}
+#carrr{
+    background-color: #1A1A1A;
+}
+.elo{
+   
+}
+#categoria{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1A1A1A;
+    margin: 10px;
+    padding: 10px;
+}
+.cata{
+    background-color: #323232;
+    color: #ffffff;
+    font-size: 20px;
+    border: 20px ;
+    border: 1px solid #D4A853;
+    padding: 14px;
+}

@@ -62,22 +62,29 @@
 }
 
 #card :hover {
-    display: flex;
-    flex-wrap: 2 ;
-    height: 432px;
-    width: 260px;
-    margin: 90px;
+    
+    height: auto;
+    width: 261px;
+    margin: 60px;
 
     #valor {
         display: none;
+        height: 0%;
     }
 
     #descriçao {
         display: none;
     }
-   .center{
-    display: none;
-   }
+
+    .center {
+        display: none;
+    }
+    #imag {
+    height: 312px;
+    width: 230px;
+    padding: 10px;
+    border-radius: 10px;
+}
 }
 
 #imag {
