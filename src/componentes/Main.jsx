@@ -3,10 +3,11 @@ import img from "../img/sem-imagem.png"
 import Card from "../prosp/card"
 import Catalogo from "./cardRapido/Catalogo"
 import Cartao from "./cardRapido/cartao"
+import Marca from "./marca/marca.jsx"
 export default function Main() {
   const numero = 100;
   return (
-    <div>
+    <div id='poi'>
       <div id="main">
         <div id='bankai'>
           <div id='apresentaçao'>
@@ -27,9 +28,111 @@ export default function Main() {
           </div>
         </div>
       </div>
-      
-     <Catalogo />
-     <Cartao Img1={img}/>
+
+      <Catalogo  />
+      <div className='enca'>
+        <div className='encac'>
+          <Cartao
+            Img1={img}
+            tex="aaaaaaa"
+            val={45411414}
+          />
+
+          <Cartao
+            Img1={img}
+            tex="aaaaaaa"
+            val={45411414}
+          />
+
+          <Cartao
+            Img1={img}
+            tex="aaaaaaa"
+            val={45411414}
+          />
+
+          <Cartao
+            Img1={img}
+            tex="aaaaaaa"
+            val={45411414}
+          />
+
+          <Cartao
+            Img1={img}
+            tex="aaaaaaa"
+            val={45411414}
+          />
+
+          <Cartao
+            Img1={img}
+            tex="aaaaaaa"
+            val={45411414}
+          />
+
+          <Cartao
+            Img1={img}
+            tex="aaaaaaa"
+            val={45411414}
+          />
+
+          <Cartao
+            Img1={img}
+            tex="aaaaaaa"
+            val={45411414}
+          />
+        </div>
+      </div>
+       <div className='enca'>
+        <div className='encac'>
+          <Cartao
+            Img1={img}
+            tex="aaaaaaa"
+            val={45411414}
+          />
+
+          <Cartao
+            Img1={img}
+            tex="aaaaaaa"
+            val={45411414}
+          />
+
+          <Cartao
+            Img1={img}
+            tex="aaaaaaa"
+            val={45411414}
+          />
+
+          <Cartao
+            Img1={img}
+            tex="aaaaaaa"
+            val={45411414}
+          />
+
+          <Cartao
+            Img1={img}
+            tex="aaaaaaa"
+            val={45411414}
+          />
+
+          <Cartao
+            Img1={img}
+            tex="aaaaaaa"
+            val={45411414}
+          />
+
+          <Cartao
+            Img1={img}
+            tex="aaaaaaa"
+            val={45411414}
+          />
+
+          <Cartao
+            Img1={img}
+            tex="aaaaaaa"
+            val={45411414}
+          />
+        </div>
+      </div>
+      <Marca />
     </div>
   );
 }

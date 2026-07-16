@@ -1,16 +1,29 @@
 #enc{
-    height: 336px;
+    height: auto;
     width: 260px;
-    background-color: aqua;
+    background-color: white;
     border-radius: 10px;
-}
-#imgcartao{
-    background-color: aqua;
     display: flex;
     justify-content: center;
+}
+#imgcartao{
+    background-color: white;
+    text-align: left;
+    margin-right: 5px;
+    padding: 10px;
+
 }
 #tama{
     height: 304px;
     width: 230px;
     border-radius: 10px;
+}
+#tex{
+    display: block;
+    color: black;
+    margin: 10px;
+}
+#val{
+    color: black;
+    margin: 10px;
 }
