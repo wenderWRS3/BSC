@@ -2,6 +2,7 @@ import './Main.css'
 import img from "../img/sem-imagem.png"
 import Card from "../prosp/card"
 import Catalogo from "./cardRapido/Catalogo"
+import Cartao from "./cardRapido/cartao"
 export default function Main() {
   const numero = 100;
   return (
@@ -27,8 +28,8 @@ export default function Main() {
         </div>
       </div>
       
-     <Catalogo/>
-
+     <Catalogo />
+     <Cartao Img1={img}/>
     </div>
   );
 }

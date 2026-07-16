@@ -1,0 +1,16 @@
+#enc{
+    height: 336px;
+    width: 260px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+#imgcartao{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+#tama{
+    height: 304px;
+    width: 230px;
+    border-radius: 10px;
+}
