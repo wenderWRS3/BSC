@@ -1,0 +1,24 @@
+#marcass{
+    display: flex;
+    flex: 2;
+    text-align: end;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background-color: #0F0F0E;
+    border-radius: 10px;
+}
+#marcaUm{
+    width: 50vh;
+}
+#imgBSC{
+    margin: 10px;
+}
+#marcaDois{
+    width: 50vw;
+}
+#texMarca{
+    color:#D4A853;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}

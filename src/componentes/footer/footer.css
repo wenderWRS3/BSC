@@ -1,0 +1,39 @@
+#jgfd{
+    width: 100%;
+    background-color: #0F0F0E;
+}
+
+#BSCFooter{
+    margin-top: 20%;
+    font-size: 30px;
+    color: aliceblue;
+}
+#aaaaa5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+#qqqq{
+    margin: 10px;
+    display: block;
+}
+#redes{
+    display: flex;
+    
+}
+#linkLinks{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.link{
+    display: block;
+}
+.link_bsc{
+    color: aliceblue;
+    list-style: none;
+}
+.link_bsc:hover{
+    color: #D4A853;
+    font-size: 20px;
+}

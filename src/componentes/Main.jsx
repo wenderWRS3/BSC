@@ -4,6 +4,7 @@ import Card from "../prosp/card"
 import Catalogo from "./cardRapido/Catalogo"
 import Cartao from "./cardRapido/cartao"
 import Marca from "./marca/marca.jsx"
+import Footer  from './footer/footer.jsx'
 export default function Main() {
   const numero = 100;
   return (
@@ -133,6 +134,7 @@ export default function Main() {
         </div>
       </div>
       <Marca />
+      <Footer/>
     </div>
   );
 }
