@@ -1,6 +1,6 @@
 import './Header.css'
 import { useState } from 'react'
-import paginalog from '../paginalog/log.jsx'
+import paginalog from '../paginalog/Log.jsx'
 import { FiSearch } from "react-icons/fi";
 import { FiShoppingCart } from "react-icons/fi";
 import { FiUser } from "react-icons/fi";
